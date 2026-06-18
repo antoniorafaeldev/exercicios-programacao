@@ -6,7 +6,7 @@ let publicationYear: number = 2015;
 let isAvailable: boolean = true;
 
 function showBook(): void {
-  return console.log(
+  console.log(
     `Nome do Livro: ${bookTitle} - Ano de publicação: ${publicationYear} - Está disponível? - ${isAvailable}`,
   );
 }
